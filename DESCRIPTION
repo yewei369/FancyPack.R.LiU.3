@@ -1,0 +1,13 @@
+Package: FancyPack.R.LiU.3
+Type: Package
+Title: Euclidean+Dijkstra
+Version: 1.0
+Date: 2019-09-10
+Author: Jun Li
+Maintainer: Jun Li <junli559@student.liu.se>
+Description: The package includes two functions: 1.Euclidean function for finding GCD of two integers;2.Dijkstra algorithm for finding shortest route, given a cost table of data frame and a numerical source point. Output is a vector of distance for all nodes acorrding to requirement, but it is possible to genereate the shortest route as well which is stored in first elements of list "nodes"
+License: N/A
+RoxygenNote: 6.1.1
+LazyData: true
+Suggests: 
+    testthat
